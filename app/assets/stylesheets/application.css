@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ .selector-for-some-widget {
+  box-sizing: content-box;
+}
+.example-container {
+  @include make-container();
+  width: 100%;
+  width: 800px;
+}
